@@ -41,8 +41,7 @@ GEM
     ffi (1.9.25)
     font-awesome-middleman (4.2.1)
       middleman-core (>= 3.0.0)
-    font-awesome-sass (5.0.13)
-      sassc (>= 1.11)
+    geocoder (1.4.9)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -94,6 +93,8 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    middleman-gh-pages (0.3.1)
+      rake (> 0.9.3)
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -125,10 +126,6 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     sass (3.4.25)
-    sassc (1.11.4)
-      bundler
-      ffi (~> 1.9.6)
-      sass (>= 3.3.0)
     servolux (0.13.0)
     sprockets (3.7.1)
       concurrent-ruby (~> 1.0)
@@ -148,16 +145,20 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   font-awesome-middleman
-  font-awesome-sass
+  geocoder
   jquery-middleman
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-deploy!
+  middleman-gh-pages
   middleman-sprockets
   pry-byebug
   puma
   rack-contrib
   rake
+
+RUBY VERSION
+   ruby 2.4.0p0
 
 BUNDLED WITH
    1.16.2
