@@ -2,7 +2,7 @@
 title: Wine Palette - Wine Export Solution
 description: Wine Palette is the best professional solution to import french wine in your country.
 ---
-<meta http-equiv="refresh" content="5; URL=javascript:window.open('http://localhost:4567/files/pricelist-winepalette.pdf');">
+<meta http-equiv="refresh" content="5; URL=javascript:window.open('https://wine-palette.herokuapp.com/files/pricelist-winepalette.pdf');">
 
 
 <div class="banner" style="background-image: url(<%= image_path 'couverture.jpg'%>);">
@@ -11,8 +11,8 @@ description: Wine Palette is the best professional solution to import french win
       <h1>French Wine on demand.</h1>
      <h2>For Wine Professional Worlwide.</h2>
       <div class="catch-content">
-        <%= link_to "About us", "about.html", class: "home-btn btn btn-primary btn-contact" %>
-        <%= link_to "Contact us", ".container-card", class: "home-btn btn btn-primary btn-contact" %>
+        <%= link_to "About us", "#about", class: "home-btn btn btn-primary btn-contact" %>
+        <%= link_to "Contact us", "#form", class: "home-btn btn btn-primary btn-contact" %>
       </div>
     </div>
   </div>
@@ -42,6 +42,7 @@ description: Wine Palette is the best professional solution to import french win
     </div>
 
 <div class="row">
+  <div id="form">
   <div class="contact-form col-xs-12 col-sm-offset-3 col-sm-6 formulaire">
 
 <form
@@ -86,16 +87,18 @@ description: Wine Palette is the best professional solution to import french win
 
   </div>
 </div>
+</div>
 <div class="container">
+<div id="about">
 <div class="row">
-  <div class="about-container"></div>
+  <div class="about-container">
       <h3>French wine export solution</h3>
       <p>Wine Palette is the French wine export solution for Cuvelier & Fauvarque (French quality wine merchant since 1787 in the North of France). It offers the ability to wine sellers all around the world to become French wine importers, by mixing and matching pallets with French wines coming from all regions, and bought from one provider.</p>
 
       <h3>French wine multi-region Négociant</h3>
       <p>Cuvelier & Fauvarque has been selling French Wine since 1787. This historical French wine seller is relevant to select quality products, and this explains its good add value and "savoir faire".  They are historically wine Négociant of the Place de Bordeaux, so are able to offer constantly over 300 French Wine Grands Crus Classés of Bordeaux that they buy and sell "En Primeur" but also keep and store in their 10km² warehouse and sell them later. Because good French Wines are not only coming from Bordeaux, Cuvelier & Fauvarque and Wine Palette  have now became French wine multi-region Négociant. They are Alsace wine exporters, Burgundy wine exporters, Champaign wine exporters, Côtes du Rhône wine exporters, Provence Wine exporters, Languedoc wine exporters, and South West wine exporters with a range of 600 different wines.</p>
-
+  </div>
 </div>
-
+</div>
 </div>
 

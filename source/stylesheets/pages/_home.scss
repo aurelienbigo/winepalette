@@ -82,3 +82,30 @@ width: 10em;
 .card-home {
   margin-top: 2em;
 }
+#about {
+  color: dark-gray;
+  margin-bottom: 4em;
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 0em;
+    margin-top: 2em;
+    font-family: helvetica;
+    color: dark-gray;
+    font-weight: bolder;
+  }
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  a {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: helvetica;
+  }
+}
+.about-container {
+  p {
+    text-align: justify;
+  }
+}
+
