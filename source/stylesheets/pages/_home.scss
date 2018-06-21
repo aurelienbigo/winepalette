@@ -1,5 +1,9 @@
+body {
+  font-family: helvetica;
+}
 p {
   margin-top: 1.5em;
+  text-align: justify;
 }
 a {
   color: rgba(0,0,0,0.4);
@@ -7,29 +11,43 @@ a {
   font-size: 16px;
 }
 
-h1 {
-  color: #5A3151;
-  font-size: 2em;
-  margin-top: 0 !important;
-  margin-bottom: 2em;
-}
+
 h2 {
   color: #D24770;
   font-size: 1.5em;
 }
+h3 {
+  color: #D24770;
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
 .btn-contact {
   background-color: #D24770;
   border: 1px solid#D24770;
   border-radius: 20px;
- width: 10em;
+  color: white;
+  width: 10em;
+  margin: 0 1em 0 1em;
   &:hover {
-    background-color: white;
-    color: #D24770;
-    border: 1px solid #D24770;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
   }
 }
 
-
+.btn-cnt {
+background-color: #D24770;
+border: 1px solid #D24770;
+border-radius: 20px;
+color: white;
+width: 10em;
+&:hover {
+  background-color: transparent;
+  color: #D24770;
+  border: 1px solid #D24770;
+  }
+}
 #home {
   color: white;
   height: 80vh;
@@ -40,13 +58,17 @@ h2 {
 
   h1 {
     font-size: 1.8em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     margin-top: -2em;
-    font-style: helvetica;
+    font-family: helvetica;
     color: white;
+    font-weight: bolder;
+  }
+  h2 {
+    margin-top: 0em;
+    margin-bottom: 1em;
   }
   a {
-    color: rgba(0,0,0,0.4);
     font-weight: bold;
     font-size: 18px;
     font-style: helvetica;
@@ -56,4 +78,7 @@ h2 {
   height: 80vh;
   background-size: cover !important;
   background: center;
+}
+.card-home {
+  margin-top: 2em;
 }

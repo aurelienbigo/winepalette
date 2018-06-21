@@ -1,41 +1,26 @@
+#about {
+  color: dark-gray;
 
-.contact-container {
-  body {
-    background-color: #F4F4F4;
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 0em;
+    margin-top: 2em;
+    font-family: helvetica;
+    color: dark-gray;
+    font-weight: bolder;
   }
-  background: #F4F4F4;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  margin: 5% 5%;
-  text-align: center;
-  border-radius: 15px;
-  color: gray;
-  p, a {
-    text-decoration: none;
-    color: gray;
-    margin: 0 0 12.5px;
-    &:hover {
-      text-decoration: none;
-      color: $red;
-    }
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  a {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: helvetica;
   }
 }
-.picto-contact {
-  font-size: 40px;
-  padding: 10px;
+.about-container {
+  p {
+    text-align: justify;
+  }
 }
-.formulaire {
-  margin-bottom: 25px;
-}
-.contact-form {
-  margin-bottom: 5%;
-}
-
-.thanks-container {
-  margin-top: 10em;
-  margin-bottom: 10em;
-}
-
-

@@ -2,20 +2,22 @@
 title: Wine Palette - Wine Export Solution
 description: Wine Palette is the best professional solution to import french wine in your country.
 ---
+<meta http-equiv="refresh" content="5; URL=javascript:window.open('http://localhost:4567/files/pricelist-winepalette.pdf');">
+
 
 <div class="banner" style="background-image: url(<%= image_path 'banner.jpg'%>);">
   <div id="home">
     <div class="home-content">
-      <h1>French Wine on demand.<br>
-     For Wine Professional Worlwide.
-     </h1>
+      <h1>French Wine on demand.</h1>
+     <h2>For Wine Professional Worlwide.</h2>
       <div class="catch-content">
-        <%= link_to "Découvrez nos services", "service.html", class: "home-btn btn btn-primary" %>
-        <%= link_to "Contactez-nous", "contact.html", class: "home-btn btn btn-primary" %>
+        <%= link_to "About us", "about.html", class: "home-btn btn btn-primary btn-contact" %>
+        <%= link_to "Contact us", ".container-card", class: "home-btn btn btn-primary btn-contact" %>
       </div>
     </div>
   </div>
 </div>
+
 
     <div class="row">
       <div class="col-xs-12 container-card" align="center">
@@ -39,46 +41,61 @@ description: Wine Palette is the best professional solution to import french win
       </div>
     </div>
 
-
+<div class="row">
   <div class="contact-form col-xs-12 col-sm-offset-3 col-sm-6 formulaire">
-    <div class="form-area">
-      <form action="https://getsimpleform.com/messages?form_api_token=11f8878eae9046772298fffc4d2e7972" method="post">
-        <!-- ne pas oublier de modifier la redirection et le token correspondant à l'adresse olb -->
-        <input type='hidden' name='redirect_to' value='/thanks.html' />
 
-        <br style="clear:both">
-          <h3 style="margin-bottom: 25px; text-align: center;">More infos</h3>
+<form
+  onsubmit="setTimeout(function(){window.location.reload();},10)" target="_blank" action="https://liveformhq.com/form/9360694e-dcec-4825-aedd-cbaaaa8cf791"
+  method="POST" accept-charset="utf-8" role=form>
 
-        <div class="form-group">
-          <input type="text" class="form-control" id="nom" name="Nom" placeholder="Name" required>
-        </div>
+  <input type="hidden" name="_utf8" value="✓">
 
-        <div class="form-group">
-          <input type="text" class="form-control" id="societe" name="Société" placeholder="Company" required>
-        </div>
+  <input type="hidden" name="_redirect" value="http://localhost:4567/files/pricelist-winepalette.pdf">
 
-        <div class="form-group">
-          <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" id="telephone" name="telephone" placeholder="Phone number" required>
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Subject" required>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="250" rows="7"></textarea>
-        </div>
+  <br style="clear:both">
+    <h4 style="margin-bottom: 25px; text-align: center;">Download our full pricelist</h4>
 
-        <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right btn-contact">Submit
-        </button>
-      </form>
-
-    </div>
+  <div class='form-group'>
+    <label for="name"></label>
+    <input class='form-control' type="text" id="name" name="name" placeholder="Name" required>
   </div>
 
+  <div class='form-group'>
+    <label for="company"></label>
+    <input class='form-control' type="text" id="company" name="company" placeholder="Company" required>
+  </div>
+
+  <div class='form-group'>
+    <label for="email"></label>
+    <input class='form-control' type="text" id="email" name="email" placeholder="Email" required>
+  </div>
+
+  <div class='form-group'>
+    <label for="telephone"></label>
+    <input class='form-control' type="text" id="telephone" name="telephone" placeholder="Phone number" required>
+  </div>
+
+  <div class='form-group'>
+    <label for="message"></label>
+    <textarea class='form-control' id="message" name="message" placeholder="Message" rows="7" required></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary pull-right btn-cnt" >Submit</button>
+</form>
 
 
-    </div>
   </div>
 </div>
+<div class="container">
+<div class="row">
+  <div class="about-container"></div>
+      <h3>French wine export solution</h3>
+      <p>Wine Palette is the French wine export solution for Cuvelier & Fauvarque (French quality wine merchant since 1787 in the North of France). It offers the ability to wine sellers all around the world to become French wine importers, by mixing and matching pallets with French wines coming from all regions, and bought from one provider.</p>
+
+      <h3>French wine multi-region Négociant</h3>
+      <p>Cuvelier & Fauvarque has been selling French Wine since 1787. This historical French wine seller is relevant to select quality products, and this explains its good add value and "savoir faire".  They are historically wine Négociant of the Place de Bordeaux, so are able to offer constantly over 300 French Wine Grands Crus Classés of Bordeaux that they buy and sell "En Primeur" but also keep and store in their 10km² warehouse and sell them later. Because good French Wines are not only coming from Bordeaux, Cuvelier & Fauvarque and Wine Palette  have now became French wine multi-region Négociant. They are Alsace wine exporters, Burgundy wine exporters, Champaign wine exporters, Côtes du Rhône wine exporters, Provence Wine exporters, Languedoc wine exporters, and South West wine exporters with a range of 600 different wines.</p>
+
+</div>
+
+</div>
+

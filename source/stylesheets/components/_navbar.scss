@@ -10,17 +10,6 @@
   justify-content: space-between;
 }
 
-/* Logo */
-.navbar-wagon-brand img {
-  height: 60px;
-}
-
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
 
 /* Right section */
 .navbar-wagon-right {
@@ -77,5 +66,6 @@
   border-top: 1px solid #E6E6E6;
 }
 .telephone {
-  padding: 3px;
+  font-size: 16px !important;
+  font-weight: bolder;
 }
