@@ -1,17 +1,21 @@
 ---
 title: Wine Palette - Wine Export Solution
-description:
+description: Wine Palette is the best professional solution to import french wine in your country.
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "250" %>
-
-
-     <h1>French Wine on demand.<br>
+<div class="banner" style="background-image: url(<%= image_path 'banner.jpg'%>);">
+  <div id="home">
+    <div class="home-content">
+      <h1>French Wine on demand.<br>
      For Wine Professional Worlwide.
      </h1>
-
+      <div class="catch-content">
+        <%= link_to "Découvrez nos services", "service.html", class: "home-btn btn btn-primary" %>
+        <%= link_to "Contactez-nous", "contact.html", class: "home-btn btn btn-primary" %>
+      </div>
+    </div>
+  </div>
+</div>
 
     <div class="row">
       <div class="col-xs-12 container-card" align="center">
