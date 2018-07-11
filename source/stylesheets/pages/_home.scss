@@ -9,13 +9,13 @@ a {
   color: rgba(0,0,0,0.4);
   font-weight: bold;
   font-size: 16px;
+  margin: 0.5em;
 }
 
 
 h2 {
   color: #D24770;
   font-size: 1.5em;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 h3 {
   color: #D24770;
@@ -29,7 +29,7 @@ h3 {
   border-radius: 20px;
   color: white;
   width: 10em;
-  margin: 0 1em 0 1em;
+  margin: 0.4em 1em 0.4em 1em;
   &:hover {
     background-color: transparent;
     color: white;
@@ -74,8 +74,10 @@ width: 10em;
     font-weight: bolder;
   }
   h2 {
+    color: #c5c5c5;
     margin-top: 0em;
     margin-bottom: 1em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   a {
     font-weight: bold;
@@ -88,6 +90,7 @@ width: 10em;
   background-size: cover !important;
   background: center;
 }
+
 .card-home {
   margin-top: 2em;
 }
@@ -111,6 +114,7 @@ width: 10em;
     font-size: 18px;
     font-style: helvetica;
   }
+  margin: 1em;
 }
 .about-container {
   p {
@@ -121,5 +125,8 @@ width: 10em;
   p {
     text-align: center;
   }
+}
+#form {
+  margin: 1em;
 }
 
