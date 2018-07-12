@@ -1,6 +1,6 @@
 require "rack"
 require "rack/contrib/try_static"
-require 'rack/ssl'
+# require 'rack/ssl'
 
 # Enable proper HEAD responses
 use Rack::Head
@@ -30,6 +30,6 @@ run lambda { |env|
   ]
 }
 # Force SSL
-unless ENV["DEV_ENV"]
-  use Rack::SSL
-end
+# unless ENV["DEV_ENV"]
+#   use Rack::SSL
+# end
