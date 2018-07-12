@@ -1,5 +1,6 @@
 require "rack"
 require "rack/contrib/try_static"
+require 'rack/ssl'
 
 # Enable proper HEAD responses
 use Rack::Head
@@ -28,3 +29,7 @@ run lambda { |env|
     File.open("build/404/index.html", File::RDONLY)
   ]
 }
+# Force SSL
+unless ENV["DEV_ENV"]
+  use Rack::SSL
+end
